@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>{head.title} | {global.appName}</title>
+        <meta name="description" content="The HTML5 Herald"/>
+        <link rel="stylesheet" type="text/css" href="/assets/styles/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="/assets/styles/app.css"/>
+        <script type="text/javascript" charset="UTF-8" src="/assets/scripts/httpClient.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="/assets/scripts/auth.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="/assets/scripts/formProcessor.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="/assets/scripts/shoppingCart.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="/assets/scripts/app.js"></script>
+    </head>
+    <body class="{body.class}">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <nav class="navbar navbar-expand navbar-light bg-light">
+                        <a class="navbar-brand" href="/">
+                            <img src="/assets/logo.png" width="80"/>
+                        </a>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item loggedOut">
+                                <a href="/user/account/create" class="btn btn-sm btn-outline-dark ml-2">Sign Up</a>
+                            </li>
+                            <li class="nav-item loggedOut">
+                                <a href="/user/session/create" class="btn btn-sm btn-outline-dark ml-2">Login</a>
+                            </li>
+                            <li class="nav-item loggedIn">
+                                <a href="/menu/list" class="nav-link">Menu</a>
+                            </li>
+                            <li class="nav-item loggedIn">
+                                <a href="/user/cart/read" class="nav-link">
+                                    Cart
+                                    <span class="badge badge-dark" id="shoppingCartCounter">0</span>
+                                </a>
+                            </li>
+                            <li class="nav-item loggedIn">
+                                <a href="/user/account/edit" class="nav-link">Profile</a>
+                            </li>
+                            <li class="nav-item loggedIn">
+                                <a href="#" class="btn btn-sm btn-outline-dark ml-2 mt-1" id="logoutButton">Logout</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    {{pageContent}}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

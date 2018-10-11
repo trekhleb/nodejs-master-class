@@ -1,0 +1,25 @@
+li.loggedIn,
+li.loggedOut,
+a.loggedIn,
+a.loggedOut {
+    display: none;
+}
+
+body.loggedIn li.loggedOut,
+body.loggedOut li.loggedIn,
+body.loggedIn a.loggedOut,
+body.loggedOut a.loggedIn {
+    display: none;
+}
+
+body.loggedIn li.loggedIn,
+body.loggedOut li.loggedOut,
+body.loggedIn a.loggedIn,
+body.loggedOut a.loggedOut {
+    display: block;
+}
+
+.formError,
+.formSuccess {
+    display: none;
+}

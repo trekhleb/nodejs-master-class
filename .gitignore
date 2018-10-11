@@ -1,0 +1,12 @@
+.idea
+.vscode
+
+# Don't track logs.
+.logs/*.log
+.logs/*.gz.b64
+
+# Don't track data files
+.data/tokens/*.json
+.data/users/*.json
+.data/orders/*.json
+.data/carts/*.json

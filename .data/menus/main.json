@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "Cheeseburger", "price": 18.30, "image": "pizza1.png"},
+  {"id": 2, "name": "Julienne", "price": 12.50, "image": "pizza2.png"},
+  {"id": 3, "name": "Meat platter", "price": 22, "image": "pizza3.png"},
+  {"id": 4, "name": "Cheese with meet", "price": 11.75, "image": "pizza1.png"},
+  {"id": 5, "name": "Don Bacon", "price": 24.10, "image": "pizza2.png"},
+  {"id": 6, "name": "5 cheeze", "price": 14.35, "image": "pizza3.png"},
+  {"id": 7, "name": "Pizza Gold", "price": 17.70, "image": "pizza1.png"},
+  {"id": 8, "name": "Seven cheeses", "price": 19.45, "image": "pizza2.png"},
+  {"id": 9, "name": "Carne", "price": 26.30, "image": "pizza3.png"},
+  {"id": 10, "name": "Cipollo", "price": 10, "image": "pizza1.png"}
+]
