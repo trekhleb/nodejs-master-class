@@ -75,7 +75,7 @@ exit                           Kill the CLI (and the rest of the application)
 
 man                            Show this help page
 
-help                           Alis of the "man" command
+help                           Alias of the "man" command
 
 menus                          Show the list of available menu items (pizzas)
 
